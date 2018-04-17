@@ -133,9 +133,9 @@ ul{
 
 }
 @media screen and (min-width: 801px) and (max-width: 1400px){
-  body{
+  /* body{
     background-color: Blue;
-  }
+  } */
   #picture {
     display: none;
   }
@@ -154,9 +154,9 @@ ul{
 }
 
 @media screen and (min-width:401px) and (max-width: 800px){
-  body{
+  /* body{
     background-color: green;
-  }
+  } */
 
   #picture {
     display: none;
@@ -176,9 +176,9 @@ ul{
 }
 
 @media screen and (max-width: 400px){
-  body{
+  /* body{
     background-color: Red;
-  }
+  } */
   #picture{
     display: none;
   }
