@@ -34,6 +34,25 @@ p>a{
   margin-left: 50px;
 }
 
+#SUform > .GetApp{
+  float: right;
+  display: inline;
+  width: 100%;
+}
+#SUform > .GetApp > p {
+  margin-right: 20%;
+}
+#SUform > .GetApp > .badge {
+  width: 30%;
+  display: inline-block;
+  margin: 0;
+}
+#SUform > .GetApp > .badge2 {
+  width: 30%;
+  display: inline-block;
+  margin-left: 20%;
+}
+
 button{
   border-radius: 3px;
   border: 1px;
@@ -98,10 +117,8 @@ form>input{
 #LogIn{
   color: blue;
 }
-.GetApp{
-  width: 100%
-}
-#GetAnd{
+
+/* #GetAnd{
   width: 45%;
   float: left;
 }
@@ -109,9 +126,75 @@ form>input{
   width: 45%;
   float: right;
   margin-left: 5px;
-}
+} */
 ul{
       list-style-type: none;
       margin-left: : auto;
 
+}
+@media screen and (min-width: 801px) and (max-width: 1400px){
+  /* body{
+    background-color: Blue;
+  } */
+  #picture {
+    display: none;
+  }
+  main{
+    margin: auto;
+    align-content: center;
+  }
+  .GetApp{
+    display: inline;
+    width: 40%;
+    margin-left: 20%;
+  }
+  .GetApp > .badge{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:401px) and (max-width: 800px){
+  /* body{
+    background-color: green;
+  } */
+
+  #picture {
+    display: none;
+  }
+
+  main{
+    margin: auto;
+    align-content: center;
+  }
+  .GetApp{
+    display: inline;
+    width: 70%;
+  }
+  .GetApp > .badge{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  /* body{
+    background-color: Red;
+  } */
+  #picture{
+    display: none;
+  }
+  main{
+    width: 100%;
+  }
+#SUform > .GetApp > .badge{
+    display: inline-block;
+    width: 100%;
+  }
+#SUform > .GetApp > .badge{
+    width: 100%;
+    margin-left: 20%;
+  }
+  #SUform > .GetApp > .badge2{
+      width: 100%;
+      margin-left: 20%;
+    }
 }
